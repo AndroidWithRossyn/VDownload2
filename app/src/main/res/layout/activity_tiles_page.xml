@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="0dp"
+    android:background="@drawable/thumbnail"
+    android:orientation="vertical"
+    android:padding="0dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/thumbnail"
+        android:contentDescription="@string/background_illustration"
+        android:scaleType="centerCrop" />
+
+
+    <LinearLayout
+        android:id="@+id/splash_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/bg_edit_text_round"
+        android:orientation="vertical"
+        android:translationY="0dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/splash_string"
+            android:scaleType="fitCenter"
+            android:src="@drawable/splash" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageButton
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="74dp"
+                android:layout_height="74dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:contentDescription="@string/settings_button"
+                android:onClick="launchSettingsIntent4"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                app:tint="@color/white"
+                android:src="@drawable/ic_settings_applications_white_24dp"
+                android:theme="@style/RippleButton" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:background="#979393" />
+
+            <ImageButton
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="74dp"
+                android:layout_height="74dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:contentDescription="@string/set_wallpaper_button"
+                android:onClick="launchIntent4"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                app:tint="@color/white"
+                android:src="@drawable/ic_image_white_24dp"
+                android:theme="@style/RippleButton" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="6dp"
+            android:lineSpacingMultiplier="1.2"
+            android:text="Live wallpaper with randomly mutating pixels. If you don't like the current colors, you can change them by changing the settings, or just wait a little bit.
+Settings for different pixel sizes, speed, greyscale and an optional black border around pixels."
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

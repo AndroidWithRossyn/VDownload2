@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>  <color name="purple_200">#FFBB86FC</color>
+    <color name="color_divider">#56FFFFFF</color>
+
+    <color name="white_mod">#FFFFFF</color>
+    <color name="material_light">#B2B2B3</color>
+
+    <color name="semi_transparent">#99212121</color>
+    <color name="material_green">#00e676</color>
+    <color name="textDark">#252323</color>
+    <color name="lightGrey">#c4c4c4</color>
+    <color name="material_black">#030408</color>
+    <color name="material_dark_light">#616161</color>
+
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="gray">#AFAEAE</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple">#006559</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="splash1">#2D0076</color>
+    <color name="splash2">#FF8A00</color>
+    <color name="wallpaper_button">#A957FF</color>
+    <color name="lightTransparent">#83ffffff</color>
+    <color name="bitTransparent">#ab000000</color>
+    <color name="default_bit_color">#00FF00</color>
+    <color name="default_background_color">#000000</color>
+    <color name="view">#DFDFDF</color>
+    <color name="green_tab">#720C92</color>
+    <color name="green_tab_dark">#720C92</color>
+    <color name="adsNativeBg">#191919</color>
+    <color name="adsTagBg">#093731</color>
+    <color name="button_two">#720C92</color>
+    <color name="txt_color">#5C5C5C</color>
+    <color name="brand_red">#ffd51826</color>
+    <color name="colorPrimaryss">#720C92</color>
+    <color name="colorPrimaryDarkss">#720C92</color>
+    <color name="colorPrimary1">#1C2849</color>
+    <color name="colorPrimary">#FBC050</color>
+    <color name="colorPrimaryDark">#FBC050</color>
+    <color name="colorPrimaryz">#F8F6F6</color>
+
+    <color name="default_circular_color">#ffffffff</color>
+    <color name="default_circular_progress_color">#FBC050</color>
+    <color name="fcolorAccent">#ff000000</color>
+    <color name="fcolorPrimary">#FBC050</color>
+    <color name="fcolorPrimaryDark">#FBC050</color>
+    <color name="textcolor">#ff99a6ad</color>
+    <color name="statusTextColor">#2B2A2A</color>
+</resources>
